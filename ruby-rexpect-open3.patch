@@ -1,0 +1,12 @@
+diff -ur rexpect-0.5-o/RExpect.rb rexpect-0.5/RExpect.rb
+--- rexpect-0.5-o/RExpect.rb	2005-07-07 22:28:19.000000000 -0600
++++ rexpect-0.5/RExpect.rb	2006-05-05 19:01:02.000000000 -0600
+@@ -13,7 +13,7 @@
+ require 'pty'
+ require 'thread'
+ require 'timeout'
+-require 'ropen3'
++require 'open3'
+ 
+ $expect_verbose = true
+ $rexpect_show_posix_bug = false # Set this to true if you want to demonstrate posix design flaw.
