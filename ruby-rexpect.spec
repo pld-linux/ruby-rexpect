@@ -6,7 +6,7 @@ License:	Ruby's license
 Group:		Development/Libraries
 Source0:	http://rubyforge.org/frs/download.php/5147/rexpect-%{version}.tgz
 # Source0-md5:	d138c618325890e8a18392c83e40c638
-Patch0:	%{name}-open3.patch
+Patch0:		%{name}-open3.patch
 URL:		http://rexpect.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
@@ -15,9 +15,9 @@ BuildRequires:	setup.rb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-RExpect is a drop in replacement for the expect.rb module in the ruby 
-standard library that is faster and more robust, cabable of driving many 
-devices simultaneously.
+RExpect is a drop in replacement for the expect.rb module in the ruby
+standard library that is faster and more robust, cabable of driving
+many devices simultaneously.
 
 %prep
 %setup -q -n rexpect-%{version}
