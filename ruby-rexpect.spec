@@ -22,11 +22,11 @@ many devices simultaneously.
 %prep
 %setup -q -n rexpect-%{version}
 %patch0 -p1
-
-%build
 cp %{_datadir}/setup.rb .
 mkdir lib
 mv RExpect.rb lib
+
+%build
 ruby setup.rb config \
 	--rbdir=%{ruby_rubylibdir} \
 	--sodir=%{ruby_archdir}
