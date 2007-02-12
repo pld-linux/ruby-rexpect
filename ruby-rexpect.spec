@@ -1,5 +1,5 @@
 Summary:	Ruby Expect module
-Summary(pl):	Modu³ Expect dla jêzyka Ruby
+Summary(pl.UTF-8):   ModuÅ‚ Expect dla jÄ™zyka Ruby
 Name:		ruby-rexpect
 Version:	0.5
 Release:	1
@@ -20,10 +20,10 @@ RExpect is a drop in replacement for the expect.rb module in the Ruby
 standard library that is faster and more robust, cabable of driving
 many devices simultaneously.
 
-%description -l pl
-RExpect to zamiennik dla modu³u expect.rb w standardowej bibliotece
-jêzyka Ruby. Jest szybszy i bogatszy w mo¿liwo¶ci, potrafi obs³ugiwaæ
-wiele urz±dzeñ jednocze¶nie.
+%description -l pl.UTF-8
+RExpect to zamiennik dla moduÅ‚u expect.rb w standardowej bibliotece
+jÄ™zyka Ruby. Jest szybszy i bogatszy w moÅ¼liwoÅ›ci, potrafi obsÅ‚ugiwaÄ‡
+wiele urzÄ…dzeÅ„ jednoczeÅ›nie.
 
 %prep
 %setup -q -n rexpect-%{version}
