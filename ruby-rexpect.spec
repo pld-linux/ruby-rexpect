@@ -1,5 +1,5 @@
 Summary:	Ruby Expect module
-Summary(pl.UTF-8):   Moduł Expect dla języka Ruby
+Summary(pl.UTF-8):	Moduł Expect dla języka Ruby
 Name:		ruby-rexpect
 Version:	0.5
 Release:	1
