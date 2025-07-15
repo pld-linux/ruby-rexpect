@@ -27,7 +27,7 @@ wiele urządzeń jednocześnie.
 
 %prep
 %setup -q -n rexpect-%{version}
-%patch0 -p1
+%patch -P0 -p1
 cp %{_datadir}/setup.rb .
 mkdir lib
 mv RExpect.rb lib
